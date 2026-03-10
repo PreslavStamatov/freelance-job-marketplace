@@ -1,0 +1,55 @@
+/* .account-setup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff8a;
+    font-family: 'Inter', sans-serif;
+    height: 60%;
+    width: 50%;
+    border-radius: 1rem;
+} */
+
+.account-setup-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+    135deg,
+    #4C2FB0 0%,
+    #6B46C1 50%,
+    #A855F7 100%
+  );
+    animation: fadeIn 1.2s ease-in-out forwards;
+    opacity: 0;
+}
+
+.account-setup-background-container {
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0.5;
+    height: 100%;
+}
+
+.account-setup-background-container img {
+    display: block;
+    width: 90%;
+}
+
+.name-setup-form,
+.role-setup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff8a;
+  font-family: 'Inter', sans-serif;
+  height: 80%;
+  flex: 0.3;
+  border-radius: 1rem;
+}
+

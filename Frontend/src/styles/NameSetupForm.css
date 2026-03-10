@@ -1,0 +1,86 @@
+.name-setup-form {
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.name-setup-heading {
+  width: 100%;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  text-align: start;
+}
+
+.name-setup-heading h2 {
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+
+.name-setup-heading p {
+  color: rgb(228, 228, 228);
+}
+
+.email {
+  font-size: 1.3rem;
+}
+
+form {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: white;
+  font-size: 1.3rem;
+}
+
+input {
+  width: 100%;
+  height: 4rem;
+  border-radius: 1rem;
+  border: none;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.account-setup-input {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
+.form-buttons-container {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  height: 5rem;
+}
+
+.back-button {
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  color: #8d6cb8;
+  border: 2px solid #8d6cb8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-button:hover {
+  background-color: #825ab8;
+  cursor: pointer;
+  color: white;
+}
+
+.submit-button {
+  flex: 1;
+  background-color: #825ab8;
+}

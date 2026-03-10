@@ -1,0 +1,35 @@
+.sidebar-option {
+    border-radius: 0.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.sidebar-option:hover {
+    background-color: #ac8ce7;
+    cursor: pointer;
+}
+
+.sidebar-option p {
+    font-size: 1.5rem;
+    color: rgb(216, 216, 216);
+}
+
+.sidebar-option-icon-container {
+    width: 2rem;
+    height: 2rem;
+}
+
+.sidebar-option-icon-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.sidebar-img {
+    font-size: 2rem !important;
+    color: white;
+}

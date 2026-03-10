@@ -1,0 +1,24 @@
+.empty-state-container {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.empty-state-img-container {
+    width: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+.empty-state-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.empty-state-container h2 {
+    font-size: 3rem;
+}
+

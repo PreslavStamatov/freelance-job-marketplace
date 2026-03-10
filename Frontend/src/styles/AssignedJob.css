@@ -1,0 +1,234 @@
+h3 {
+    font-size: 2.5rem;
+    color: white;
+
+}
+
+p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.assigned-job-page {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    color: rgb(233, 233, 233);
+}
+
+.assigned-job-page-container {
+    flex: 0.7;
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.assigned-jod-heading {
+    flex: 0.2;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 1rem;
+    background: linear-gradient(135deg,
+            #886ace 0%,
+            #886ace 50%,
+            #8d6cb8 100%);
+    padding: 1.5rem;
+}
+
+.assigned-job-heading-text {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+    color: white;
+    font-weight: 700;
+
+}
+
+.assigned-job-heading-details,
+.assigned-job-overview-details {
+    display: flex;
+    gap: 1rem;
+}
+
+.assigned-job-heading-details p {
+    font-size: 1.5rem;
+}
+
+.assigned-job-overview-detail {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.assigned-job-overview-detail-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.assigned-job-status-active {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(150, 187, 255);
+    font-size: 1.5rem;
+}
+
+.assigned-job-status-finished {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(246, 150, 255);
+    font-size: 1.5rem;
+}
+
+.assigned-job-overview {
+    flex: 0.2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    border-radius: 0.5rem;
+    background: linear-gradient(135deg,
+            #886ace 0%,
+            #886ace 50%,
+            #8d6cb8 100%);
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+.milestone-progress-container {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+}
+
+.milestone-progress-container p {
+    font-weight: bold;
+}
+
+.milestones-progress-bar-container {
+    width: 100%;
+    max-width: 250px; /* adjust as needed */
+    height: 16px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 999px;
+    overflow: hidden;
+    position: relative;
+
+    /* soft inset look */
+    box-shadow: 
+        inset 0 2px 4px rgba(0, 0, 0, 0.25),
+        inset 0 -1px 2px rgba(255, 255, 255, 0.1);
+}
+
+.milestones-progress-bar {
+    height: 100%;
+    border-radius: 999px;
+    transition: width 0.4s ease-in-out;
+
+    /* purple gradient fill */
+    background: linear-gradient(
+        90deg,
+        #c084fc 0%,      /* light purple */
+        #a855f7 50%,     /* mid purple */
+        #7c3aed 100%     /* deep purple */
+    );
+
+    /* subtle glow */
+    box-shadow: 
+        0 0 8px rgba(168, 85, 247, 0.6),
+        0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* .milestone-progress-container {
+    display: flex;
+    width: 50%;
+    gap: 1rem;
+}
+
+.milestone-progress-container p {
+    font-weight: bold;
+}
+
+.milestones-progress-bar-container {
+    flex: 1;
+    border: 2px solid #1f2a44;
+}
+
+.milestones-progress-bar {
+    background-color: aquamarine;
+    height: 100%;
+} */
+
+.view-assigned-job-button {
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    color: #8d6cb8;
+    font-weight: bolder;
+    cursor: pointer;
+    min-height: 0;
+    justify-content: flex-start;
+}
+
+.view-assigned-job-button:hover {
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+.assigned-job-page-milestones-container {
+    flex: 0.6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    border-radius: 1rem;
+    background: linear-gradient(135deg,
+        #886ace 0%,
+        #886ace 50%,
+        #8d6cb8 100%);  
+    padding: 1.5rem;
+}
+
+.assigned-job-page-milestones {
+    flex: 0.9;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    overflow-y: auto;
+    gap: 2rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.6) transparent;
+}
+
+.assigned-job-page-milestones::-webkit-scrollbar {
+    width: 8px;
+}
+
+.assigned-job-page-milestones::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.assigned-job-page-milestones::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 999px;
+    backdrop-filter: blur(4px);
+}
+
+.assigned-job-page-milestones::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.8);
+}

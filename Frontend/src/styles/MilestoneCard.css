@@ -1,0 +1,117 @@
+.milestone-card-container {
+    padding: 1.5rem;
+    width: 99%;
+    height: fit-content;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.205);
+    border-radius: 0.5rem;
+}
+
+.milestone-info-section {
+    flex: 0.5;
+    height: 100%;
+}
+
+.milestone-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: fit-content;
+    height: fit-content
+}
+
+.milestone-status {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: rgb(150, 187, 255);
+    font-size: 1.5rem;
+}
+
+.inProgress {
+    background-color: #F59E0B;
+    color: #FFFFFF;
+}
+
+.inReview {
+    background-color: #3B82F6;
+}
+
+.completed {
+    background-color: #10B981;
+    color: #FFFFFF;
+}
+
+.milestone-details {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.milestone-detail-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.milestone-detail {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.milestone-buttons-section {
+    flex: 0.5;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.milestone-button {
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    color: rgb(52, 98, 184);
+    font-weight: bolder;
+    cursor: pointer;
+    flex: 1;
+    height: 40%;
+}
+
+.complete-milestone-button {
+    background-color: #10B981;
+    color: #FFFFFF;
+    border: none;
+}
+
+.complete-milestone-button:hover {
+    background-color: #059669;
+}
+
+.reject-submited-milestone-button {
+    background-color: #EF4444;
+    color: #FFFFFF;
+    border: none;
+}
+
+.reject-submited-milestone-button:hover {
+    background-color: #ee3030;
+}
+
+.submit-milestone-button {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+}
+
+.submit-milestone-button:hover {
+    background-color: #1D4ED8;
+}

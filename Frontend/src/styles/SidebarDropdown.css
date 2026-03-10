@@ -1,0 +1,38 @@
+.sidebar-dropdown-container {
+    position: fixed;
+    inset: 0;
+    background: transparent;
+    z-index: 10;
+    cursor: auto;
+}
+
+.sidebar-dropdown {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 4rem;
+    width: 14.5rem;
+    height: fit-content;
+    background: #121212;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    gap: 1rem;
+}
+
+.sidebar-dropdown-option {
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-dropdown-option:hover {
+    background-color: #2e2e2e;
+}

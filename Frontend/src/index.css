@@ -1,0 +1,50 @@
+:root {
+  line-height: 1.5;
+  font-size: 14px;
+  
+  font-family: "Inter", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+  min-height: 99vh;
+  /* background-color: #dbc8ff; */
+  background: linear-gradient(
+    135deg,
+    #4C2FB0 0%,
+    #6B46C1 50%,
+    #A855F7 100%
+  );
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p {
+  display: flex;
+  align-items: end;
+}

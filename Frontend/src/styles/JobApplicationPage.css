@@ -1,0 +1,269 @@
+.job-application-page {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    padding: 1rem;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.freelancer-application-container {
+    flex: 0.7;
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(135deg,
+            #7257d6 0%,
+            #886ace 50%,
+            #8d6cb8 100%);
+    padding: 1.5rem;
+}
+
+
+
+.freelancer-application-heading {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.205);
+
+    padding: 2rem;
+
+}
+
+.freelancer-application-heading-text {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+    color: white;
+    font-weight: 700;
+}
+
+.freelancer-application-heading-details {
+    display: flex;
+    color: white;
+
+}
+
+.freelancer-application-profile {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.205);
+    color: white;
+}
+
+.freelancer-application-profile p {
+    color: white;
+}
+
+.freelancer-name {
+    font-size: 1.8rem;
+}
+
+.freelancer-application-profile-main {
+    flex: 0.6;
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+}
+
+.freelancer-image-container,
+.employer-image-container {
+    height: 4.5rem;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: gray;
+    margin-right: 1rem;
+}
+
+.main-freelancer-info-container {
+    /* padding-left: 0.5rem; */
+}
+
+.freelancer-image-container p {
+    font-size: 2rem;
+}
+
+.freelancer-application-profile-secondary {
+    flex: 0.4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.freelancer-application-profile-secondary p {
+    font-size: 1.2rem;
+    ;
+}
+
+.view-profile-button {
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    color: #8d6cb8;
+    font-weight: bolder;
+    cursor: pointer;
+    min-height: 0;
+    justify-content: flex-start;
+}
+
+.view-profile-button:hover {
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+.cover-letter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.205);
+
+    padding: 2rem;
+    color: white;
+}
+
+
+/* Job Overview */
+
+.job-overview-container {
+    flex: 0.35;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: min-content;
+    border-radius: 0.5rem;
+    background: linear-gradient(
+        135deg,
+        #886ace 0%,
+        #886ace 50%,
+        #8d6cb8 100%
+    );
+    gap: 1.5rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+.job-overview-container>h2 {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.205);
+    padding: 1rem;
+}
+
+.job-overview-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: min-content;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.205);
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.job-overview-details {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+    height: 100%;
+}
+
+.job-overview-detail-headings,
+.job-overview-detail-values {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    gap: 0.5rem;
+}
+
+.job-overview-detail-headings {
+    font-weight: bold;
+}
+
+.job-overview-employer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.205);
+    padding: 1rem;
+}
+
+.employer-intro {
+    display: flex;
+}
+
+.job-application-buttons {
+    display: flex;
+    gap: 1rem;
+    height: 5%;
+    width: 50%;
+}
+
+.job-application-accept-button {
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    color: #8d6cb8;
+    font-weight: bolder;
+    cursor: pointer;
+    height: min-content;
+    width: max-content;
+    justify-content: flex-start;
+    transition: ease 0.2s;
+    border: 2px solid white;
+
+}
+
+.job-application-reject-button {
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    color: #8d6cb8;
+    font-weight: bolder;
+    cursor: pointer;
+    height: min-content;
+    width: max-content;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.514);
+    transition: ease 0.2s;
+    border: 2px solid rgba(255, 255, 255, 0.61);
+}
+
+
+.job-application-accept-button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid white;
+}
+
+.job-application-reject-button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid white;
+}
