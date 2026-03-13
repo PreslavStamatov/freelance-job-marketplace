@@ -106,13 +106,13 @@ flowchart TD
 <img width="1920" height="1080" alt="Screenshot 2026-03-11 143952" src="https://github.com/user-attachments/assets/41d4bfbd-f2da-4ab0-abd2-e82b9131d2ea" />
 
 ### Freelancer Home Page
-<img width="1920" height="1080" alt="Screenshot 2026-03-11 143908" src="https://github.com/user-attachments/assets/74f5bcbf-a893-4d2d-bc0f-ea37b03edb87" />
+<img width="1920" height="1080" alt="Screenshot 2026-03-13 151627" src="https://github.com/user-attachments/assets/ada96518-b334-4752-a585-b221c22fd8b4" />
 
 ### Job Application Review
-<img width="1920" height="1080" alt="Screenshot 2026-03-11 143919" src="https://github.com/user-attachments/assets/dc6050eb-695d-4756-8999-e3beeabd62b7" />
+<img width="1920" height="1080" alt="Screenshot 2026-03-13 151637" src="https://github.com/user-attachments/assets/5e4adf03-3b09-4b80-949b-ceb1d0806aef" />
 
 ### Assigned Job Page
-<img width="1920" height="1080" alt="Screenshot 2026-03-11 143931" src="https://github.com/user-attachments/assets/7da551ee-b4c7-490d-a480-74acc5442cf2" />
+<img width="1920" height="1080" alt="Screenshot 2026-03-13 151651" src="https://github.com/user-attachments/assets/1a57c9f7-7f76-4554-bdad-5554343aadee" />
 
 ## API Example
 
